@@ -1,30 +1,34 @@
 # 📝 To-Do List 📝
 
-A To-Do is an entity that, in our case, needs to have a title, description, and status. And, since we care about knowing which one we already completed, we need a way to change its status.
+👻 A To-Do is an entity that, in our case, needs to have a title, description, and status.
+
+✅ And, since we care about knowing which one we already completed, we need a way to change its status.
 
 What about a To-Do List?
 
-A To-Do List is a list of To-Dos! DUH!
+A To-Do List is a list of To-Dos! DUH! 🤦‍♂️
 
 And it needs a couple of things to function:
 
 First, To-Dos!
-And we should be able to see them to keep track of them.
+
+👀 And we should be able to see them to keep track of them.
+
 But what do you do with them apart from seeing them?
 
-You can add a new one.
+➕ You can add a new one.
 
-And you can remove them.
+➖ And you can remove them.
 
 Quite easy, right?
 
-Since we will be coding in JavaScript, we will use classes.
+Since we will be coding in JavaScript, we will use classes. 🧱
 
 Why classes?
 
-Because they are like molds we can reuse.
+🍪 Because they are like cookie-cutters we can reuse.
 
-We can have a To-Do List for work and another for personal stuff.
+We can have a To-Do List for work 🏢 and another for personal stuff. 🏠
 
 Do we need to create it from scratch every time we want a new list?
 
@@ -38,7 +42,7 @@ Should every To-Do be created from scratch?
 
 Let's have a look:
 
-Task 1:
+🟡 Task 1:
 
 <pre>
 { 
@@ -48,17 +52,17 @@ Task 1:
 }
 </pre>
 
-Task 2:
+🔵 Task 2:
 
 <pre>
 { 
    title: "Call mom", 
-   description: "She needs help with hte wifi",
+   description: "She needs help with the wifi",
    isCompleted: false 
 }
 </pre>
 
-Task 3:
+🔴 Task 3:
 
 <pre>
 {
@@ -92,7 +96,7 @@ class ToDo {
 
 See! My cookie-cutter.
 
-Now, let me create my cookies:
+🍪 Now, let me create my cookies:
 
 `const todo1 = new ToDo {"Chop onions", "Careful with the knife", isCompleted: false};`
 
@@ -100,6 +104,6 @@ Now, let me create my cookies:
 
 `const todo3 = new ToDo {"Work out", "If not my back hurts", isCompleted: false};`
 
-Way faster than creating one by one!
+🚀 Way faster than creating one by one!
 
 🐛 Now that you understand the project and why we are using classes, help me debug my code!
