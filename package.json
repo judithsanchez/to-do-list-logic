@@ -1,0 +1,23 @@
+{
+  "name": "to-do-list-logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judithsanchez/to-do-list-logic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/judithsanchez/to-do-list-logic/issues"
+  },
+  "homepage": "https://github.com/judithsanchez/to-do-list-logic#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
